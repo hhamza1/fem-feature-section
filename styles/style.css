@@ -63,16 +63,21 @@ h1, h2 {
     border-top: 4px solid hsl(212, 86%, 64%);
 }
 
+.card-info {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
 .icon-container {
     margin-top: 40px;
     display: flex;
     justify-content: flex-end;
 }
 
-.card-info {
-    margin: 0;
-    padding-top: 20px;
-}
+
 
 
 
