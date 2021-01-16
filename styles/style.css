@@ -87,7 +87,11 @@ h1, h2 {
 
 @media(min-width: 1024px) {
     .header {
-        max-width: 500px;
+        max-width: 506px;
+    }
+
+    h1, h2 {
+        margin-top: 0;
     }
 
     .cards {
