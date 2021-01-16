@@ -21,7 +21,7 @@ h1, h2 {
     margin-bottom: 40px;
     text-align: center;
     padding: 0 21px;
-    width: 78.4%;
+    max-width: 78.4%;
 }
 
 .light-title {
@@ -87,7 +87,7 @@ h1, h2 {
 
 @media(min-width: 1024px) {
     .header {
-        width: 500px;
+        max-width: 500px;
     }
 
     .cards {
