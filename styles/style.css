@@ -21,7 +21,7 @@ h1, h2 {
     margin-bottom: 40px;
     text-align: center;
     padding: 0 21px;
-    
+    width: 78.4%;
 }
 
 .light-title {
@@ -83,3 +83,43 @@ h1, h2 {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media(min-width: 1024px) {
+    .header {
+        width: 500px;
+    }
+
+    .cards {
+        grid-template-rows: repeat(4, 125px);
+        grid-template-columns: repeat(3, 350px);
+        justify-content: center;
+    }
+
+    .card {
+        padding: 30px;
+        padding-bottom: 0;
+        height: 250px;
+    }
+
+    #supervisor, #calculator {
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    #team-builder {
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #karma {
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+}
+
+@media(min-width: 768px) and (max-width:1023px) {
+    .cards {
+        grid-template-rows: repeat(2, 50%);
+        grid-template-columns: repeat(2, 48%);
+    }
+}
